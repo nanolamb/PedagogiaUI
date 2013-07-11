@@ -2,3 +2,8 @@ git init
 git add .
 git commit -m "archivos"
 git log
+Ahora crearemos un repositorio Git remoto. Git te permite almacenar este repositorio remoto tanto en la red como localmente.
+
+Un repositorio Git estandar es diferente de un repositorio remoto. Un repo estandar contiene el código fuente y el repositorio Git. Podés trabajor directamente en este directorio ya que este contiene una copia de todos los archivos.
+
+Los repositorios remotos no contienen las copias de todos los archivos. Estos solo tienen los archivos del repositorio, la información perteneciente a Git. Para crear tal repositorio utilizá la bandera --bare.
